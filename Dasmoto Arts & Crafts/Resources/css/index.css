@@ -1,0 +1,43 @@
+/* Is it better to use "*" or "html" when you want to
+  select all the text? */
+html {
+  font-family: Helvetica;
+}
+
+/* The headline is a special snowflake. */
+#headline{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image:
+  url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+/* That ^ looks rather ugly, is there a way to
+  condense URLs? */
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* I use ids here because each sectionTitle needed its
+  own unique background-color attribute. */
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+/* All the price spans share the same styling */
+.price {
+  font-weight: bold;
+  color: blue;
+}
